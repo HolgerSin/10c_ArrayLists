@@ -15,7 +15,7 @@ public class App {
 		// System.out.println(carMakers);
 		// System.out.println(carMakers.size());
 		
-		// // AL dynamisch füllen (JS --> push() / J --> add())
+		// // // AL dynamisch füllen (JS --> push() / J --> add())
 		
 		// carMakers.add("Volvo");
 		// carMakers.add("BMW");
@@ -26,7 +26,7 @@ public class App {
 		// System.out.println(carMakers);
 		// System.out.println(carMakers.size());
 		
-		// // Daten aus AL lesen
+		// // // Daten aus AL lesen
 		// System.out.println(carMakers.get(0));
 		
 		// System.out.println("");
@@ -69,25 +69,25 @@ public class App {
 		// carMakers.clear();
 		// System.out.println(carMakers);
 		
-		// System.out.println("");
-		// System.out.println("-------Thema: Wrapper -------------");
+		System.out.println("");
+		System.out.println("-------Thema: Wrapper -------------");
 		
-		// ArrayList<String> strList = new ArrayList<>();
+		ArrayList<String> strList = new ArrayList<>();
 		
 		// ArrayList<int> intList = new ArrayList<>();
 		// Lösung: Wrapper
 		
 		// int boo = 2;
-		// Integer boo = 2;
-		// System.out.println("Inhalt: " + boo.intValue());
+		Integer boo = 2;
+		System.out.println("Inhalt: " + boo.intValue());
 		
-		// ArrayList<Integer> intList = new ArrayList<>();
+		ArrayList<Integer> intList = new ArrayList<>();
 		
-		// intList.add(10);
-		// intList.add(11);
-		// intList.add(12);
+		intList.add(10);
+		intList.add(11);
+		intList.add(12);
 		
-		// System.out.println(intList);
+		System.out.println(intList);
 		
 	
 	}
